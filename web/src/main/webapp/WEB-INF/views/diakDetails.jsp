@@ -14,11 +14,10 @@
 </head>
 <body>
 <table>
-    <tr><td>Név:</td><<td>${diak.nev}</td></tr>
-    <tr><td>Születési Dátum:</td><<td>${diak.szuletesiDatum}</td></tr>
-    <tr><td>Osztály:</td><<td>${diak.osztaly}</td></tr>
-    <tr><td>Átlag:</td><<td>${diak.atlag}</td></tr>
-    <tr><td>Tantárgyak:</td><<td>${diak.tantargyakList}</td></tr>
+    <tr><td>Név:</td><td>${diak.nev}</td></tr>
+    <tr><td>Születési Dátum:</td><td>${diak.szuletesiDatum}</td></tr>
+    <tr><td>Osztály:</td><td>${diak.osztaly}</td></tr>
+    <tr><td>Átlag:</td><td>${diak.atlag}</td></tr>
 </table>
 <form action="${pageContext.servletContext.contextPath}/">
     <input type="submit" value="Vissza a főoldalra.">

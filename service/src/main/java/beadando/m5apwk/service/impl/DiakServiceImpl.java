@@ -2,6 +2,7 @@ package beadando.m5apwk.service.impl;
 
 import beadando.m5apwk.dao.DiakDAO;
 import beadando.m5apwk.exceptions.DiakLetezik;
+import beadando.m5apwk.exceptions.DiakNemTalalhato;
 import beadando.m5apwk.model.Diak;
 import beadando.m5apwk.model.Osztaly;
 import beadando.m5apwk.service.DiakService;
@@ -31,22 +32,22 @@ public class DiakServiceImpl implements DiakService {
     public Collection<Diak> getAllDiak() {
         Collection<Diak> result = dao.readAllDiak();
         logger.info("Az adatbázisban "+ result.size()+ " diák van felvéve.");
-        return dao.readAllDiak();
+        return result;
     }
 
     @Override
-    public Diak getDiakById(String id) {
-        return null;
+    public Diak getDiakById(String id) throws DiakNemTalalhato {
+        return dao.readDiak(id);
     }
 
     @Override
     public void updateDiak(Diak diak) {
-
+        dao.updateDiak(diak);
     }
 
     @Override
-    public void removeDiak(Diak diak) {
-
+    public void removeDiak(Diak diak) throws DiakNemTalalhato {
+        dao.readDiak(diak.getId());
     }
 
     @Override
