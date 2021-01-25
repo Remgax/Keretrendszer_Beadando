@@ -57,14 +57,9 @@ public class DiakController {
         service.addDiak(diak);
         return "redirect:/diak/"+diak.getId();
     }
-    @PostMapping(value = "/update")
+      @PostMapping(value = "/update")
     public String update(@ModelAttribute("newDiak") Diak diak) throws DiakNemTalalhato{
-        try{
-            service.updateDiak(diak);
-        }
-        catch (DiakNemTalalhato diakNemTalalhato){
-            diakNemTalalhato.printStackTrace();
-        }
+        service.updateDiak(diak);
         return "redirect:diak/" + diak.getId();
     }
     @PostMapping(value = "/diakId")
