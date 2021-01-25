@@ -4,21 +4,29 @@ import beadando.m5apwk.exceptions.AtlagHataronTul;
 import beadando.m5apwk.exceptions.AtlagNegativ;
 import beadando.m5apwk.exceptions.RosszSzuletesiDatum;
 import beadando.m5apwk.exceptions.NevNemLehetUres;
+import org.apache.log4j.Logger;
+import org.apache.log4j.helpers.DateTimeDateFormat;
+import org.springframework.format.annotation.DateTimeFormat;
 
 import java.time.LocalDate;
 import java.util.List;
 import java.util.UUID;
 
+
+
 public class Diak {
     private String nev;
     private String id;
+    @DateTimeFormat(iso = DateTimeFormat.ISO.DATE)
     private LocalDate szuletesiDatum;
     private Osztaly osztaly;
     private double atlag;
     public List<Tantargyak> tantargyakList;
+    Logger logger = Logger.getLogger(this.getClass());
 
     public Diak() {
         this.id = UUID.randomUUID().toString();
+        logger.info("Új dika lett létrehozva a "+ this.id + " azonosítóval.");
     }
 
     public String getNev() {
@@ -45,7 +53,7 @@ public class Diak {
         return szuletesiDatum;
     }
 
-    public void setSzuletesiDatum(LocalDate szuletesiDatum) throws RosszSzuletesiDatum {
+    public void setSzuletesiDatum( @DateTimeFormat(iso = DateTimeFormat.ISO.DATE) LocalDate szuletesiDatum) throws RosszSzuletesiDatum {
         if(szuletesiDatum.isAfter(LocalDate.now().minusYears(6))){
             throw new RosszSzuletesiDatum("6 évnél fiatalabb nem mehet iskolába:" + szuletesiDatum);
         }

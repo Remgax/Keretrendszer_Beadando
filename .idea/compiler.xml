@@ -6,10 +6,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="dao_realtional" />
         <module name="core" />
+        <module name="console" />
+        <module name="controller" />
         <module name="util" />
+        <module name="web" />
         <module name="service" />
+        <module name="dao_realtional" />
+        <module name="dao_json" />
       </profile>
     </annotationProcessing>
   </component>

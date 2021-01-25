@@ -1,6 +1,8 @@
 package beadando.m5apwk.dao.relational;
 
 import beadando.m5apwk.dao.DiakDAO;
+import beadando.m5apwk.exceptions.DiakLetezik;
+import beadando.m5apwk.exceptions.DiakNemTalalhato;
 import beadando.m5apwk.model.Diak;
 import beadando.m5apwk.model.Osztaly;
 import org.hibernate.Session;
@@ -10,7 +12,6 @@ import org.hibernate.cfg.Configuration;
 import org.hibernate.query.Query;
 
 import java.util.Collection;
-import java.util.Queue;
 
 public class DiakDAORelational implements DiakDAO {
 
@@ -21,7 +22,7 @@ public class DiakDAORelational implements DiakDAO {
     }
 
     @Override
-    public void createDiak(Diak diak) {
+    public void createDiak(Diak diak) throws DiakLetezik {
         Session session = factory.openSession();
         Transaction tx = session.beginTransaction();
         session.save(diak);
@@ -37,18 +38,31 @@ public class DiakDAORelational implements DiakDAO {
     }
 
     @Override
-    public Diak readDiak() {
-        return null;
+    public Diak readDiak(String id) throws DiakNemTalalhato {
+        Session session = factory.openSession();
+        Diak result = session.get(Diak.class, id);
+        if (result == null) {
+            throw new DiakNemTalalhato(id);
+        }
+        return result;
     }
 
     @Override
     public void updateDiak(Diak diak) {
-
+        Session session = factory.openSession();
+        Transaction tx = session.beginTransaction();
+        session.update(diak);
+        tx.commit();
+        session.close();
     }
 
     @Override
     public void deleteDiak(Diak diak) {
-
+        Session session = factory.openSession();
+        Transaction tx = session.beginTransaction();
+        session.delete(diak);
+        tx.commit();
+        session.close();
     }
 
     @Override

@@ -1,0 +1,203 @@
+2021-01-25 09:17:51, INFO, HHH000412: Hibernate ORM core version 5.4.21.Final
+2021-01-25 09:17:51, INFO, HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2021-01-25 09:17:52, WARN, HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-01-25 09:17:52, INFO, HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://mysql.nethely.hu:3306/keretrendszer]
+2021-01-25 09:17:52, INFO, HHH10001001: Connection properties: {password=****, user=keretrendszer}
+2021-01-25 09:17:52, INFO, HHH10001003: Autocommit mode: false
+2021-01-25 09:17:52, INFO, HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-01-25 09:17:52, INFO, HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-01-25 09:17:53, INFO, HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@6ee99964] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-01-25 09:17:53, INFO, HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-01-25 09:17:53, INFO, Új dika lett létrehozva a 00369954-64e5-4713-99ac-121a415bdc10 azonosítóval.
+2021-01-25 09:17:53, INFO, Új dika lett létrehozva a d16b8474-220d-49f2-8544-666a7067e232 azonosítóval.
+2021-01-25 09:17:53, INFO, Új dika lett létrehozva a 80d32c84-7a99-4aef-9994-9eb3890615e5 azonosítóval.
+2021-01-25 09:17:53, INFO, Új dika lett létrehozva a 97f13aad-ee9c-49ca-aa4a-4de0b14e3eda azonosítóval.
+2021-01-25 09:17:53, INFO, Új dika lett létrehozva a 735ec947-fda7-4b5d-a086-ca2954ef1eb3 azonosítóval.
+2021-01-25 09:18:41, INFO, HHH000412: Hibernate ORM core version 5.4.21.Final
+2021-01-25 09:18:41, INFO, HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2021-01-25 09:18:42, WARN, HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-01-25 09:18:42, INFO, HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://mysql.nethely.hu:3306/keretrendszer]
+2021-01-25 09:18:42, INFO, HHH10001001: Connection properties: {password=****, user=keretrendszer}
+2021-01-25 09:18:42, INFO, HHH10001003: Autocommit mode: false
+2021-01-25 09:18:42, INFO, HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-01-25 09:18:42, INFO, HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-01-25 09:18:42, INFO, HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@6ee99964] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-01-25 09:18:43, INFO, HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-01-25 09:18:43, INFO, Új dika lett létrehozva a 0d457029-8b37-4c82-ab57-0b5b2aa8eea4 azonosítóval.
+2021-01-25 09:18:43, INFO, Új dika lett létrehozva a cb99aded-775f-4576-9f4f-4d5e97c5ea4e azonosítóval.
+2021-01-25 09:18:43, INFO, Új dika lett létrehozva a fe2fa530-4a69-45aa-909a-d356f2a297e3 azonosítóval.
+2021-01-25 09:18:43, INFO, Új dika lett létrehozva a 94bebd73-3a0d-4ac8-be4e-e44c886c8705 azonosítóval.
+2021-01-25 09:18:43, INFO, Új dika lett létrehozva a 1956b5eb-af1c-46a0-a00a-883e9e0790b6 azonosítóval.
+2021-01-25 09:18:43, INFO, Új dika lett létrehozva a 94cc834f-4586-4416-af06-23ad96c19e26 azonosítóval.
+2021-01-25 09:21:54, INFO, HHH000412: Hibernate ORM core version 5.4.21.Final
+2021-01-25 09:21:54, INFO, HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2021-01-25 09:21:55, WARN, HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-01-25 09:21:55, INFO, HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://mysql.nethely.hu:3306/keretrendszer]
+2021-01-25 09:21:55, INFO, HHH10001001: Connection properties: {password=****, user=keretrendszer}
+2021-01-25 09:21:55, INFO, HHH10001003: Autocommit mode: false
+2021-01-25 09:21:55, INFO, HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-01-25 09:21:55, INFO, HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-01-25 09:21:56, INFO, HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@6ee99964] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-01-25 09:21:56, INFO, HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-01-25 09:21:56, INFO, Új dika lett létrehozva a d360cc80-e4c4-49a9-b994-50cfdd2125c5 azonosítóval.
+2021-01-25 09:21:56, INFO, Új dika lett létrehozva a f586b2f3-1360-4ff5-b7f3-62e2c530135c azonosítóval.
+2021-01-25 09:21:56, INFO, Új dika lett létrehozva a f99d143a-3a34-4be2-b7d2-e1054b61f379 azonosítóval.
+2021-01-25 09:21:56, INFO, Új dika lett létrehozva a 83724cee-f376-411c-abc9-58b9f1dd75ed azonosítóval.
+2021-01-25 09:21:56, INFO, Új dika lett létrehozva a 7dab26bd-c90f-418a-8b8b-93b3d2227c4c azonosítóval.
+2021-01-25 09:21:56, INFO, Új dika lett létrehozva a 26fb39e4-b36e-46d1-b874-9f83a9777c7d azonosítóval.
+2021-01-25 09:21:56, INFO, Új dika lett létrehozva a 5f8944bf-6dd6-4e2a-b7e5-c4275aecab18 azonosítóval.
+2021-01-25 09:21:56, INFO, Az adatbázisban 6 diák van felvéve.
+2021-01-25 09:21:56, INFO, Új dika lett létrehozva a 0a13b860-c596-43b9-8986-38de15782e9d azonosítóval.
+2021-01-25 09:21:56, INFO, Új dika lett létrehozva a 1fd9e9c6-5c2a-4fc9-981f-9fcc6d4440fc azonosítóval.
+2021-01-25 09:21:56, INFO, Új dika lett létrehozva a 102f2508-c4b4-46dc-9262-a7cca628c905 azonosítóval.
+2021-01-25 09:21:56, INFO, Új dika lett létrehozva a 9a81f7fd-ce4e-4f50-88e7-b5570fbcdc9e azonosítóval.
+2021-01-25 09:21:56, INFO, Új dika lett létrehozva a 938419b3-d303-450d-bdeb-852c7d2b7093 azonosítóval.
+2021-01-25 09:21:56, INFO, Új dika lett létrehozva a f493ba8e-d914-4af9-8784-21be89322f18 azonosítóval.
+2021-01-25 09:21:56, INFO, Új dika lett létrehozva a a2bc01bc-e588-48ad-bdd4-7512bd3e40f3 azonosítóval.
+2021-01-25 09:21:56, INFO, Új dika lett létrehozva a e97b4c6b-99e0-4fbf-971e-6d3cffe4c98d azonosítóval.
+2021-01-25 09:21:56, INFO, Új dika lett létrehozva a 0a8a585b-e018-4e27-a601-fa6d57ce916d azonosítóval.
+2021-01-25 09:21:56, INFO, Új dika lett létrehozva a e0f3ee61-c0f0-4ca4-a0e9-3c53e3bd62a5 azonosítóval.
+2021-01-25 09:21:56, INFO, Új dika lett létrehozva a 6340a19b-1e25-43d0-8673-02dec235bdb6 azonosítóval.
+2021-01-25 09:21:56, INFO, Új dika lett létrehozva a 70e465e3-53e2-4b61-8be1-131f909e2dce azonosítóval.
+2021-01-25 09:21:56, INFO, Az adatbázisban 6 diák van felvéve.
+2021-01-25 09:21:56, INFO, Új dika lett létrehozva a ed13eebb-e337-4268-9376-580c88bbfb89 azonosítóval.
+2021-01-25 09:21:56, INFO, Új dika lett létrehozva a 3e7a1f92-44da-4ad1-9451-b01564020fc9 azonosítóval.
+2021-01-25 09:21:56, INFO, Új dika lett létrehozva a 8d19fd99-4375-4ce3-b76e-4852bb486133 azonosítóval.
+2021-01-25 09:21:56, INFO, Új dika lett létrehozva a 836da0ea-4167-4c69-9f4c-e4dbd8757cb8 azonosítóval.
+2021-01-25 09:21:56, INFO, Új dika lett létrehozva a f876ee6a-b7c0-49df-a807-e6f6523dc5be azonosítóval.
+2021-01-25 09:21:56, INFO, Új dika lett létrehozva a 386d0152-fb0a-4228-b539-d6b3b14a76a1 azonosítóval.
+2021-01-25 09:27:03, INFO, HHH000412: Hibernate ORM core version 5.4.21.Final
+2021-01-25 09:27:03, INFO, HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2021-01-25 09:27:04, WARN, HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-01-25 09:27:04, INFO, HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://mysql.nethely.hu:3306/keretrendszer]
+2021-01-25 09:27:04, INFO, HHH10001001: Connection properties: {password=****, user=keretrendszer}
+2021-01-25 09:27:04, INFO, HHH10001003: Autocommit mode: false
+2021-01-25 09:27:04, INFO, HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-01-25 09:27:04, INFO, HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-01-25 09:27:05, INFO, HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@46f902e0] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-01-25 09:27:05, INFO, HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-01-25 09:27:05, INFO, Új dika lett létrehozva a 249d43b3-30cd-4e3a-8b08-ecfb5b75e519 azonosítóval.
+2021-01-25 09:27:05, INFO, Új dika lett létrehozva a b53b59fb-b172-4315-8747-18c5c719541d azonosítóval.
+2021-01-25 09:27:05, INFO, Új dika lett létrehozva a b03f2dc2-eb6c-4432-8023-208a4365e6c9 azonosítóval.
+2021-01-25 09:27:05, INFO, Új dika lett létrehozva a 27c9d8e0-ab41-421b-98f7-dcac3a0bb2b9 azonosítóval.
+2021-01-25 09:27:05, INFO, Új dika lett létrehozva a d0d0e636-12eb-46cc-b243-2c85955ba96a azonosítóval.
+2021-01-25 09:27:05, INFO, Új dika lett létrehozva a 5483cbd3-b724-48a3-9ff3-d2adab0778c5 azonosítóval.
+2021-01-25 09:27:05, INFO, Új dika lett létrehozva a 9be46158-2c33-4a0d-a6df-2c4fe546ed30 azonosítóval.
+2021-01-25 09:27:05, INFO, Új dika lett létrehozva a 269986c4-8aa9-4025-a7f1-4520938ede4b azonosítóval.
+2021-01-25 09:27:05, INFO, Az adatbázisban 7 diák van felvéve.
+2021-01-25 09:27:05, INFO, Új dika lett létrehozva a 0a07bd89-4e01-412c-9de0-46e90cf4baae azonosítóval.
+2021-01-25 09:27:05, INFO, Új dika lett létrehozva a c1e5efc1-591d-4bab-9c66-f80b386121e8 azonosítóval.
+2021-01-25 09:27:05, INFO, Új dika lett létrehozva a 7baa1585-ee2a-40c4-867d-c8f22ce99e65 azonosítóval.
+2021-01-25 09:27:05, INFO, Új dika lett létrehozva a cd6eab02-f73e-418a-ac08-68ff8620bbf8 azonosítóval.
+2021-01-25 09:27:05, INFO, Új dika lett létrehozva a 7c4c3442-55be-43f8-92ba-a54010255c4c azonosítóval.
+2021-01-25 09:27:05, INFO, Új dika lett létrehozva a 37ebcbb6-8004-46d6-91a3-e6acbf0add03 azonosítóval.
+2021-01-25 09:27:05, INFO, Új dika lett létrehozva a b2a80850-e1ae-459a-b111-03b9787ff183 azonosítóval.
+2021-01-25 09:27:05, INFO, Új dika lett létrehozva a 0ddb5f02-96a0-42da-9751-b2189c1c2cae azonosítóval.
+2021-01-25 09:27:05, INFO, Új dika lett létrehozva a b5e3ae4d-99f9-4df3-88ed-cfea29c0c984 azonosítóval.
+2021-01-25 09:27:05, INFO, Új dika lett létrehozva a 775d95b5-0696-41f4-ac69-9098cba60d97 azonosítóval.
+2021-01-25 09:27:05, INFO, Új dika lett létrehozva a 5c771fbc-8ffb-465c-b1aa-fd57e8fd3efe azonosítóval.
+2021-01-25 09:27:05, INFO, Új dika lett létrehozva a d398ee61-2284-4277-b6b0-5ef6e799c2b8 azonosítóval.
+2021-01-25 09:27:05, INFO, Új dika lett létrehozva a a8dc6851-f3a4-40d1-a17e-2e12de5e5394 azonosítóval.
+2021-01-25 09:27:05, INFO, Új dika lett létrehozva a da2321f4-62bb-4d83-b09e-dc93d52f445e azonosítóval.
+2021-01-25 09:27:05, INFO, Az adatbázisban 7 diák van felvéve.
+2021-01-25 09:27:05, INFO, Új dika lett létrehozva a ea219ff7-406c-42a5-8e32-8467e5566ae6 azonosítóval.
+2021-01-25 09:27:05, INFO, Új dika lett létrehozva a c474acf9-81df-411d-bf72-dd72982b255e azonosítóval.
+2021-01-25 09:27:05, INFO, Új dika lett létrehozva a 57e0b87d-ca9e-48c0-af03-519cfd981f6c azonosítóval.
+2021-01-25 09:27:05, INFO, Új dika lett létrehozva a a0bda910-2578-4250-954b-0c31deffd539 azonosítóval.
+2021-01-25 09:27:05, INFO, Új dika lett létrehozva a 3b3645a3-a1f5-4c93-a674-2070db713e48 azonosítóval.
+2021-01-25 09:27:05, INFO, Új dika lett létrehozva a 551d0cfd-09f7-4ad2-a271-30d3f0fa7e04 azonosítóval.
+2021-01-25 09:27:05, INFO, Új dika lett létrehozva a d69cacf6-883b-4151-bad1-4c20824961f2 azonosítóval.
+2021-01-25 09:27:40, INFO, HHH000412: Hibernate ORM core version 5.4.21.Final
+2021-01-25 09:27:40, INFO, HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2021-01-25 09:27:41, WARN, HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-01-25 09:27:41, INFO, HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://mysql.nethely.hu:3306/keretrendszer]
+2021-01-25 09:27:41, INFO, HHH10001001: Connection properties: {password=****, user=keretrendszer}
+2021-01-25 09:27:41, INFO, HHH10001003: Autocommit mode: false
+2021-01-25 09:27:41, INFO, HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-01-25 09:27:41, INFO, HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-01-25 09:27:42, INFO, HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@59c70ceb] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-01-25 09:27:42, INFO, HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-01-25 09:27:42, INFO, Új dika lett létrehozva a 598afa0c-6493-4042-9fb5-2e3e94c4718e azonosítóval.
+2021-01-25 09:27:42, INFO, Új dika lett létrehozva a 4bd35e5f-a395-4e4a-9e1f-8fae38f3e8b3 azonosítóval.
+2021-01-25 09:27:42, INFO, Új dika lett létrehozva a 1e7bdd82-f828-4684-b70f-4cede1314cda azonosítóval.
+2021-01-25 09:27:42, INFO, Új dika lett létrehozva a f5a830c8-2658-4902-9461-6ed98f6a4d6a azonosítóval.
+2021-01-25 09:27:42, INFO, Új dika lett létrehozva a 5ac0f886-6529-43d6-af76-6fc2ab64b73b azonosítóval.
+2021-01-25 09:27:42, INFO, Új dika lett létrehozva a f6531ded-b5d3-4221-b845-d9cff1025b64 azonosítóval.
+2021-01-25 09:27:42, INFO, Új dika lett létrehozva a 6a4f653d-25e1-494d-95d2-ca8fc2130e21 azonosítóval.
+2021-01-25 09:27:42, INFO, Új dika lett létrehozva a 01e07516-309b-4706-a5a6-f80048f9a938 azonosítóval.
+2021-01-25 09:27:42, INFO, Új dika lett létrehozva a 5a18c299-44b0-48b3-848d-8a3868bbc5a4 azonosítóval.
+2021-01-25 09:27:42, INFO, Az adatbázisban 8 diák van felvéve.
+2021-01-25 09:27:42, INFO, Új dika lett létrehozva a bff08404-5e58-4ade-98e1-77571fe2c1c1 azonosítóval.
+2021-01-25 09:27:42, INFO, Új dika lett létrehozva a b6be3820-e590-4c5a-82ac-f42f656e1f11 azonosítóval.
+2021-01-25 09:27:42, INFO, Új dika lett létrehozva a b280bbc9-f790-4b15-ab3c-a0cfc8f1c5dc azonosítóval.
+2021-01-25 09:27:42, INFO, Új dika lett létrehozva a 28de60ea-a69a-4584-93d1-1acc316bcc01 azonosítóval.
+2021-01-25 09:27:42, INFO, Új dika lett létrehozva a 8a30dd01-0aca-4193-9121-02dd825832f3 azonosítóval.
+2021-01-25 09:27:42, INFO, Új dika lett létrehozva a 89e06ac0-372c-4bda-a8d9-5f672f45dce0 azonosítóval.
+2021-01-25 09:27:42, INFO, Új dika lett létrehozva a c77c01b9-ee72-4ee6-b3fd-6d49d1a989c8 azonosítóval.
+2021-01-25 09:27:42, INFO, Új dika lett létrehozva a 2a0c024e-7435-4c73-891b-f1cbff00a0a8 azonosítóval.
+2021-01-25 09:27:42, INFO, Új dika lett létrehozva a 22f7cbbd-3f58-4446-a7dc-d69e164ab850 azonosítóval.
+2021-01-25 09:27:42, INFO, Új dika lett létrehozva a 7bf8a6ca-e615-4085-ae0c-fbdeae98b09c azonosítóval.
+2021-01-25 09:27:42, INFO, Új dika lett létrehozva a 2a8177e3-b76a-480a-98e3-0d0c3b36b750 azonosítóval.
+2021-01-25 09:27:42, INFO, Új dika lett létrehozva a 59f452d4-1198-480c-81ce-a8499a159195 azonosítóval.
+2021-01-25 09:27:42, INFO, Új dika lett létrehozva a 3846b089-1adf-43b3-8795-aa5c36245d97 azonosítóval.
+2021-01-25 09:27:42, INFO, Új dika lett létrehozva a 6b4f7a87-c830-420b-af77-a19802d67d0f azonosítóval.
+2021-01-25 09:27:42, INFO, Új dika lett létrehozva a 742b32d0-026d-4f6f-ad5b-685f240b5ad0 azonosítóval.
+2021-01-25 09:27:42, INFO, Új dika lett létrehozva a dc10a9e8-b595-4ccb-bc28-a4ffe040775b azonosítóval.
+2021-01-25 09:27:42, INFO, Az adatbázisban 8 diák van felvéve.
+2021-01-25 09:27:42, INFO, Új dika lett létrehozva a aa6b6377-9e7c-48f2-a354-b82bc0d91731 azonosítóval.
+2021-01-25 09:27:42, INFO, Új dika lett létrehozva a 3f35944e-a9ec-4360-ae66-f49b51bea347 azonosítóval.
+2021-01-25 09:27:42, INFO, Új dika lett létrehozva a f8565f63-b403-4b52-a56a-f77401d4f069 azonosítóval.
+2021-01-25 09:27:42, INFO, Új dika lett létrehozva a a6c656c1-b4ff-47b9-a82b-d605225d6fa8 azonosítóval.
+2021-01-25 09:27:42, INFO, Új dika lett létrehozva a 17607e57-7789-4381-b056-e1a35d062735 azonosítóval.
+2021-01-25 09:27:42, INFO, Új dika lett létrehozva a fd0c0e7e-05ec-4a11-a7f6-028e501371f9 azonosítóval.
+2021-01-25 09:27:42, INFO, Új dika lett létrehozva a c481b033-c80a-4842-b35f-259a6fb6c954 azonosítóval.
+2021-01-25 09:27:42, INFO, Új dika lett létrehozva a 2342965a-9a14-4381-a8a5-e8a1c8dfad9c azonosítóval.
+2021-01-25 09:30:26, INFO, HHH000412: Hibernate ORM core version 5.4.21.Final
+2021-01-25 09:30:27, INFO, HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2021-01-25 09:30:27, WARN, HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-01-25 09:30:27, INFO, HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://mysql.nethely.hu:3306/keretrendszer]
+2021-01-25 09:30:27, INFO, HHH10001001: Connection properties: {password=****, user=keretrendszer}
+2021-01-25 09:30:27, INFO, HHH10001003: Autocommit mode: false
+2021-01-25 09:30:27, INFO, HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-01-25 09:30:28, INFO, HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-01-25 09:30:28, INFO, HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@59c70ceb] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-01-25 09:30:28, INFO, HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-01-25 09:30:28, INFO, Új dika lett létrehozva a 4fd971f0-b6c4-4273-9dd2-f39e3a5f39cd azonosítóval.
+2021-01-25 09:30:28, INFO, Új dika lett létrehozva a ae4a5382-ce61-4e8d-ac95-f5661b33def8 azonosítóval.
+2021-01-25 09:30:28, INFO, Új dika lett létrehozva a f3f575c9-8cc2-4648-9f99-a8bd4c8b803f azonosítóval.
+2021-01-25 09:30:28, INFO, Új dika lett létrehozva a 38210a30-93d9-4cf3-9efa-087a8a67b33a azonosítóval.
+2021-01-25 09:30:28, INFO, Új dika lett létrehozva a 5f40e068-0a69-440e-93d7-492e115e2899 azonosítóval.
+2021-01-25 09:30:28, INFO, Új dika lett létrehozva a a52ecedf-40bc-4e8b-a811-20a24aecda0b azonosítóval.
+2021-01-25 09:30:28, INFO, Új dika lett létrehozva a 2c868ce1-e830-45cc-b095-d831f3b6dddc azonosítóval.
+2021-01-25 09:30:28, INFO, Új dika lett létrehozva a 4de36003-acdf-4ba6-8407-e720b574f293 azonosítóval.
+2021-01-25 09:30:28, INFO, Új dika lett létrehozva a 08028b46-9cf1-4647-b5a8-11ebdbaed3a9 azonosítóval.
+2021-01-25 09:30:28, INFO, Új dika lett létrehozva a 55473638-8311-4eea-ad1d-928f73ae334e azonosítóval.
+2021-01-25 09:30:29, INFO, Az adatbázisban 9 diák van felvéve.
+2021-01-25 09:30:29, INFO, Új dika lett létrehozva a 5f426c2f-f1e6-45a6-8434-3bf49cb5d1b7 azonosítóval.
+2021-01-25 09:30:29, INFO, Új dika lett létrehozva a daf00b4a-f294-4b4a-82c4-014f544791de azonosítóval.
+2021-01-25 09:30:29, INFO, Új dika lett létrehozva a f7b17279-691d-488a-8c53-03253863e266 azonosítóval.
+2021-01-25 09:30:29, INFO, Új dika lett létrehozva a eb28d9c9-1edf-4eb4-b764-0e62add37549 azonosítóval.
+2021-01-25 09:30:29, INFO, Új dika lett létrehozva a 47705741-5bbd-4bb4-b116-bbe7446aa94c azonosítóval.
+2021-01-25 09:30:29, INFO, Új dika lett létrehozva a 86d1d8d7-0cd6-44cf-80aa-cd2a38857b84 azonosítóval.
+2021-01-25 09:30:29, INFO, Új dika lett létrehozva a de26b870-9618-493e-8466-32e5670d8569 azonosítóval.
+2021-01-25 09:30:29, INFO, Új dika lett létrehozva a c0a60e55-1a49-4d3a-8b4b-93a02f37170b azonosítóval.
+2021-01-25 09:30:29, INFO, Új dika lett létrehozva a 7a6247da-1421-487d-a327-107203527171 azonosítóval.
+2021-01-25 09:30:29, INFO, Új dika lett létrehozva a 15480a5e-092f-4e26-b1b2-b3568154b981 azonosítóval.
+2021-01-25 09:30:29, INFO, Új dika lett létrehozva a 21344741-f0f4-4968-81b1-dbaf7f7f2246 azonosítóval.
+2021-01-25 09:30:29, INFO, Új dika lett létrehozva a 8a4cd43b-825a-44f0-954e-bbfe1fc3c9ea azonosítóval.
+2021-01-25 09:30:29, INFO, Új dika lett létrehozva a f1575419-8b2f-4d67-bd46-7a4e3d90d185 azonosítóval.
+2021-01-25 09:30:29, INFO, Új dika lett létrehozva a 3d82907b-d49b-4df2-b5f0-211bfa94afec azonosítóval.
+2021-01-25 09:30:29, INFO, Új dika lett létrehozva a 069a0ece-e0b8-4d8f-be72-9bfddc414ae4 azonosítóval.
+2021-01-25 09:30:29, INFO, Új dika lett létrehozva a b2df9332-c903-4933-b3c3-328cde42f051 azonosítóval.
+2021-01-25 09:30:29, INFO, Új dika lett létrehozva a 82e6c800-a1d8-48b0-be6e-4bfe6bdf8a96 azonosítóval.
+2021-01-25 09:30:29, INFO, Új dika lett létrehozva a cd8566a0-390a-4e7f-8d1a-f37132d4a872 azonosítóval.
+2021-01-25 09:30:29, INFO, Az adatbázisban 9 diák van felvéve.
+2021-01-25 09:30:29, INFO, Új dika lett létrehozva a f5b1e465-116f-4cdc-8738-625263c1990d azonosítóval.
+2021-01-25 09:30:29, INFO, Új dika lett létrehozva a 12345f6b-afee-481d-b50a-0aa16818dd48 azonosítóval.
+2021-01-25 09:30:29, INFO, Új dika lett létrehozva a 12851bda-5449-462f-a22f-bfa90a73f548 azonosítóval.
+2021-01-25 09:30:29, INFO, Új dika lett létrehozva a 6f464c54-b337-4e1b-a53d-f16965e3c8b5 azonosítóval.
+2021-01-25 09:30:29, INFO, Új dika lett létrehozva a 36c61437-5860-4b7b-a439-bd893d9f4ef6 azonosítóval.
+2021-01-25 09:30:29, INFO, Új dika lett létrehozva a 642d1b07-f915-4d78-9f46-f228cc0d91ac azonosítóval.
+2021-01-25 09:30:29, INFO, Új dika lett létrehozva a b0d1c00e-16ca-403a-b6c6-97ff47c3b0ad azonosítóval.
+2021-01-25 09:30:29, INFO, Új dika lett létrehozva a 8313b5ad-a432-474d-b3cc-003ee5389ee4 azonosítóval.
+2021-01-25 09:30:29, INFO, Új dika lett létrehozva a 74af4379-bbed-44d1-8d65-d304d83efd33 azonosítóval.
